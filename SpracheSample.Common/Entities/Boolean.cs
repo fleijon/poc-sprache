@@ -1,8 +1,8 @@
 ﻿namespace SpracheSample.Common
 {
-    public class ElisaBoolean : Literal<bool>
+    public class Boolean : Literal<bool>
     {
-        public ElisaBoolean(bool value) : base(value)
+        public Boolean(bool value) : base(value)
         {
         }
     }
