@@ -2,9 +2,9 @@
 
 namespace SpracheSample.Common
 {
-    public class ElisaDate : Literal<DateTime>
+    public class Date : Literal<DateTime>
     {
-        public ElisaDate(DateTime date) : base(date)
+        public Date(DateTime date) : base(date)
         {
         }
     }
